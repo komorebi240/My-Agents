@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "selection": "advisory",
+  "defaultLimit": 3,
+  "skills": [
+    {
+      "id": "api-convention",
+      "description": "Design or review HTTP endpoint contracts, validation, safe errors and compatibility in this project.",
+      "path": ".claude/skills/api-convention/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "api",
+        "endpoint",
+        "response",
+        "contract",
+        "pagination",
+        "hợp đồng api",
+        "phản hồi api"
+      ]
+    },
+    {
+      "id": "architecture-review",
+      "description": "Assess and propose significant feature or cross-module changes before implementation; use for architecture, data-flow, or integration decisions.",
+      "path": ".claude/skills/architecture-review/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "architecture",
+        "cross-module",
+        "refactor",
+        "kiến trúc",
+        "liên module"
+      ]
+    },
+    {
+      "id": "bug-fix",
+      "description": "Diagnose and repair defects through reproduction, a failing regression test, root-cause analysis, minimal safe change, and verification.",
+      "path": ".claude/skills/bug-fix/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "bug",
+        "regression",
+        "defect",
+        "sửa lỗi",
+        "lỗi",
+        "không hoạt động"
+      ]
+    },
+    {
+      "id": "build-deploy",
+      "description": "Prepare and verify builds and deployments using the project's actual runtime, environments, migration process, health checks, and rollback plan.",
+      "path": ".claude/skills/build-deploy/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": ["build", "deploy", "docker", "triển khai", "môi trường"]
+    },
+    {
+      "id": "code-review",
+      "description": "Perform an evidence-based review of changes for correctness, security, architecture, tests, performance, and user experience.",
+      "path": ".claude/skills/code-review/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "review",
+        "diff",
+        "pull request",
+        "kiểm tra code",
+        "đánh giá code"
+      ]
+    },
+    {
+      "id": "coding-convention",
+      "description": "Apply the project's established formatting, naming, linting, and code-quality conventions during implementation or cleanup.",
+      "path": ".claude/skills/coding-convention/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": ["format", "naming", "lint", "quy ước", "định dạng"]
+    },
+    {
+      "id": "database-convention",
+      "description": "Safely design, query, review, and migrate relational data structures and database access code.",
+      "path": ".claude/skills/database-convention/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "database",
+        "sql",
+        "flyway",
+        "migration",
+        "query",
+        "cơ sở dữ liệu",
+        "truy vấn"
+      ]
+    },
+    {
+      "id": "dependency-audit",
+      "description": "Evaluate proposed or changed dependencies for necessity, maintenance, security, licensing, compatibility, and operational impact.",
+      "path": ".claude/skills/dependency-audit/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": ["dependency", "package", "library", "thư viện", "phụ thuộc"]
+    },
+    {
+      "id": "documentation",
+      "description": "Keep project documentation aligned with meaningful changes to behavior, architecture, interfaces, operations, configuration, and security.",
+      "path": ".claude/skills/documentation/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "documentation",
+        "readme",
+        "specification",
+        "tài liệu",
+        "đặc tả"
+      ]
+    },
+    {
+      "id": "git-github",
+      "description": "Manage repository changes safely, preserving user work and requiring explicit approval for commits, pushes, or protected-branch operations.",
+      "path": ".claude/skills/git-github/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": ["git", "github", "commit", "push", "branch", "nhánh"]
+    },
+    {
+      "id": "observability",
+      "description": "Design or review safe logs, metrics, tracing, health checks, and alerts for operationally diagnosable systems.",
+      "path": ".claude/skills/observability/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "logs",
+        "logging",
+        "metrics",
+        "tracing",
+        "health",
+        "nhật ký",
+        "giám sát"
+      ]
+    },
+    {
+      "id": "performance-review",
+      "description": "Identify measurable performance bottlenecks and propose verified improvements across frontend, backend, database, and integrations.",
+      "path": ".claude/skills/performance-review/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "performance",
+        "latency",
+        "slow",
+        "bundle",
+        "hiệu năng",
+        "chậm"
+      ]
+    },
+    {
+      "id": "project-onboarding",
+      "description": "Inspect an unfamiliar project or subsystem before making changes, identifying its stack, workflows, boundaries, and operational constraints.",
+      "path": ".claude/skills/project-onboarding/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "onboarding",
+        "project structure",
+        "khảo sát",
+        "cấu trúc project",
+        "cấu trúc dự án"
+      ]
+    },
+    {
+      "id": "refactoring-cleanup",
+      "description": "Safely remove or simplify dead, duplicate, obsolete, unreachable, debug, or overwritten code without altering intended behavior.",
+      "path": ".claude/skills/refactoring-cleanup/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": ["refactor", "cleanup", "dead code", "dọn code", "mã thừa"]
+    },
+    {
+      "id": "release-checklist",
+      "description": "Verify release readiness across code quality, security, tests, migrations, operations, documentation, and rollback planning.",
+      "path": ".claude/skills/release-checklist/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": ["release", "production", "phát hành", "go live"]
+    },
+    {
+      "id": "security-review",
+      "description": "Review application changes or code for exploitable security weaknesses, sensitive-data handling, and server-side trust boundaries.",
+      "path": ".claude/skills/security-review/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "security",
+        "auth",
+        "authorization",
+        "tenant",
+        "secrets",
+        "bảo mật",
+        "phân quyền",
+        "xác thực"
+      ]
+    },
+    {
+      "id": "testing-workflow",
+      "description": "Plan and execute proportionate unit, integration, API, security, regression, and end-to-end verification for code changes.",
+      "path": ".claude/skills/testing-workflow/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": ["test", "testing", "regression", "kiểm thử", "hồi quy"]
+    },
+    {
+      "id": "ui-design-and-taste",
+      "description": "Design a new page or materially revise visual hierarchy, layout and composition using the product design system.",
+      "path": ".claude/skills/ui-design-and-taste/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": ["design", "layout", "typography", "thiết kế", "bố cục"]
+    },
+    {
+      "id": "ui-ux-review",
+      "description": "Review or improve interfaces for readable hierarchy, accessibility, responsive behavior, consistent states, and purposeful interaction design.",
+      "path": ".claude/skills/ui-ux-review/SKILL.md",
+      "status": "active",
+      "origin": "project",
+      "triggers": [
+        "accessibility",
+        "responsive",
+        "ui review",
+        "mobile",
+        "tràn",
+        "giao diện",
+        "khả dụng"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "shadcn-ui",
+      "path": ".claude/skills/ui",
+      "status": "reference",
+      "url": "https://github.com/shadcn-ui/ui",
+      "revision": "d51870f66fd13cc975d82ecbb9eace3cff066878"
+    },
+    {
+      "id": "gsap",
+      "path": ".claude/skills/gsap-skills",
+      "status": "reference",
+      "url": "https://github.com/greensock/gsap-skills",
+      "revision": "aed9cfd3277740755f6bfc1155c7aa645403b760"
+    }
+  ]
+}
